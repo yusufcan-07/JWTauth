@@ -28,6 +28,7 @@ namespace JWTauth
                     {
                         services.AddControllers();
                         services.AddTransient<IAuthService, AuthService>();
+                        services.AddTransient<ITokenService, TokenService>();
                     }).Configure(app =>
                     {
                         var env = app.ApplicationServices.GetService<IWebHostEnvironment>();
