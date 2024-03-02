@@ -26,12 +26,12 @@ namespace JWTauth.Services
             var dateTimeNow = DateTime.UtcNow;
 
             JwtSecurityToken jwt = new JwtSecurityToken(
-
-                issuer: configuration["AppSettings:ValidIssuer"],
-                audience:configuration["AppSettings:ValidAudience"],
+                
+                issuer: configuration["AppSettings:ValidIssuer"],/*token kimler tarafından kullanacak (www.yusuf.com)*/
+                audience:configuration["AppSettings:ValidAudience"],/*token kim tarafında dağıtılıyor (yani biz yusuf)*/
                 claims: new List<Claim>
                 {
-                    new Claim("userName",request.Username)
+                    new Claim("userName",request.Username)//token içinde saklamak istediğimiz bilgiler
                 },
                 notBefore: dateTimeNow,
                 expires:dateTimeNow.Add(TimeSpan.FromMinutes(500)),

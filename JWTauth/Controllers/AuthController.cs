@@ -8,6 +8,7 @@ namespace JWTauth.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class AuthController : ControllerBase
     {
         readonly IAuthService AuthService;
