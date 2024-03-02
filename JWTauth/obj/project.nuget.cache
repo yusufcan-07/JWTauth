@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1XnCU8X6BcpUWBDZWyXCf2XiqhO+tKdu5AnIhRKhCKAo7l//dvrx+q3cif3Am31Rp/6d+OdLRBgxiNsUE/dzUA==",
+  "dgSpecHash": "lGcjJrafMZEd9NPUVCy5sJMapENbF07oIABdNwcmMvnLDtJDna0BZMAZuVOzwF/r8xAUgMtqBlkvG6BU6kSf2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\yusuf\\RiderProjects\\JWTauth\\JWTauth\\JWTauth.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,8 @@
     "C:\\Users\\yusuf\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.3.1\\system.identitymodel.tokens.jwt.7.3.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
-    "C:\\Users\\yusuf\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\yusuf\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }
